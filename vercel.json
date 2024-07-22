@@ -6,7 +6,31 @@
       "use": "@vercel/static"
     },
     {
+      "src": "401.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "404.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "buy-crypto.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "risk-disclosure.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "zeroid-landing.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "css/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "fonts/*",
       "use": "@vercel/static"
     },
     {
@@ -19,6 +43,30 @@
     }
   ],
   "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/401",
+      "dest": "/401.html"
+    },
+    {
+      "src": "/404",
+      "dest": "/404.html"
+    },
+    {
+      "src": "/buy-crypto",
+      "dest": "/buy-crypto.html"
+    },
+    {
+      "src": "/risk-disclosure",
+      "dest": "/risk-disclosure.html"
+    },
+    {
+      "src": "/zeroid-landing",
+      "dest": "/zeroid-landing.html"
+    },
     {
       "src": "/(.*)",
       "dest": "/index.html"
