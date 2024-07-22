@@ -6,8 +6,16 @@
       "use": "@vercel/static"
     },
     {
-      "src": "middleware.js",
-      "use": "@vercel/node"
+      "src": "css/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "js/*",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
