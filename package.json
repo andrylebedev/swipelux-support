@@ -1,6 +1,10 @@
 {
-  "private": true,
+  "name": "swipelux-support",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vercel dev"
+  },
   "dependencies": {
-    "@vercel/edge": "^0.1.2"
+    "@vercel/node": "^2.0.0"
   }
 }
